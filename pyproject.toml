@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "listenbrainzhook"
+version = "0.1.0"
+description = "A Python wrapper for the ListenBrainz API"
+authors = [
+    {name = "benjjvi"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+    "requests",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/benjjvi/listenbrainzhook"
+Repository = "https://github.com/benjjvi/listenbrainzhook"
